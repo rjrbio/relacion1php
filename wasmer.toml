@@ -1,0 +1,12 @@
+[package]
+name = "rjrbio/relacion1php"
+version = "0.1.0"
+description = "Proyecto PHP con un índice y varios ejercicios en subcarpetas"
+license = "MIT"
+
+[dependencies]
+php = "latest"
+
+[[mounts]]
+mount = "."
+to = "/"
