@@ -1,4 +1,4 @@
-<?php
+<!-- 
 
     if (isset($_POST["numero1" . "numero2" . "numero3"])) {
         $numero1 = $_POST["numero1"];
@@ -11,4 +11,4 @@
 
         }
 }
-?>
+ -->
