@@ -5,7 +5,7 @@ description = "Proyecto PHP con un índice y varios ejercicios en subcarpetas"
 license = "MIT"
 
 [dependencies]
-php = "8.3.0"
+"wasmer/php" = "8.3.0"
 
 [[mounts]]
 mount = "."
