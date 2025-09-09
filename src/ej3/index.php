@@ -35,7 +35,7 @@
             }
         }
         ?>
-        <br><a href="../../index.html">Pagina principal</a>
+        <br><a href="../../index.php">Pagina principal</a>
     </main>
 </body>
 

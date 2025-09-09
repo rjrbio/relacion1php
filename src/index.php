@@ -18,8 +18,8 @@
         <section class="lista-ejercicios">
             <ol>
                 <li><span><a href="./ej1/index.php">Ejercicio 1</a></span></li>
-                <li><span><a href="./src/ej2/">Ejercicio 2</a></span></li>
-                <li><span><a href="/ej3/">Ejercicio 3</a></span></li>
+                <li><span><a href="./ej2/index.php">Ejercicio 2</a></span></li>
+                <li><span><a href="./ej3/index.php">Ejercicio 3</a></span></li>
                 <li><span><a href="/relacion1php/src/ej1/index.php">Ejercicio 4</a></span></li>
                 <li><span><a href="/relacion1php/src/ej1/index.php">Ejercicio 5</a></span></li>
                 <li><span><a href="/relacion1php/src/ej1/index.php">Ejercicio 6</a></span></li>
