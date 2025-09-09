@@ -1,3 +1,3 @@
-##Relacion Ejercicios PHP
+# Relacion Ejercicios PHP
 
-Relación de ejercicios realizados con PHP (1) - 15 ejercicios
+Relación de ejercicios realizados con **PHP** (1) en clase - 15 ejercicios
