@@ -36,7 +36,7 @@
             if (($numero3 > $numero2) && ($numero3 > $numero1)) {
                 echo "$numero3 es el mayor";
             } else {
-                echo "<p style='color:red;'>Por favor, introduce números.</p>";
+                echo "";
             }
         }
         ?> 

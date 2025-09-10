@@ -24,14 +24,14 @@
                 <li><span><a href="./ej5/index.php">Ejercicio 5</a></span></li>
                 <li><span><a href="./ej6/index.php">Ejercicio 6</a></span></li>
                 <li><span><a href="./ej7/index.php">Ejercicio 7</a></span></li>
-                <li><span><a href="./ej1/index.php">Ejercicio 8</a></span></li>
-                <li><span><a href="./ej1/index.php">Ejercicio 9</a></span></li>
-                <li><span><a href="./ej1/index.php">Ejercicio 10</a></span></li>
-                <li><span><a href="./ej1/index.php">Ejercicio 11</a></span></li>
-                <li><span><a href="./ej1/index.php">Ejercicio 12</a></span></li>
-                <li><span><a href="./ej1/index.php">Ejercicio 13</a></span></li>
-                <li><span><a href="./ej1/index.php">Ejercicio 14</a></span></li>
-                <li><span><a href="./ej1/index.php">Ejercicio 15</a></span></li>
+                <li><span><a href="./ej8/index.php">Ejercicio 8</a></span></li>
+                <li><span><a href="./ej9/index.php">Ejercicio 9</a></span></li>
+                <li><span><a href="./ej10/index.php">Ejercicio 10</a></span></li>
+                <li><span><a href="./ej11/index.php">Ejercicio 11</a></span></li>
+                <li><span><a href="./ej12/index.php">Ejercicio 12</a></span></li>
+                <li><span><a href="./ej13/index.php">Ejercicio 13</a></span></li>
+                <li><span><a href="./ej14/index.php">Ejercicio 14</a></span></li>
+                <li><span><a href="./ej15/index.php">Ejercicio 15</a></span></li>
             </ol>
 
         </section>
