@@ -11,12 +11,12 @@
 <body>
     <main>
         <h1>Calcular volumen cono</h1>
-        <form method="get">
+        <form method="post">
             <p>Calcular el volumen de un cono según la fórmula: V = (1/3)πr2h</p>
             <label for="rad">Radio (cm):</label>
-            <input type="number" name="rad" id="rad"><br>
+            <input type="number" name="rad" id="rad" required><br>
             <label for="alt">Altura (cm):</label>
-            <input type="number" name="alt" id="alt"><br>
+            <input type="number" name="alt" id="alt" required><br>
 
             <br><input type="submit" value="Calcular" name="enviar">
         </form>
@@ -24,14 +24,13 @@
         <?php
 
         // Recoge datos del formulario
-        if (isset($_GET['enviar'])) {
-            // Verificamos si el usuario ha introducido euros
-            if (!empty($_GET['base'])) {
-                $base = floatval($_GET['base']);
-                $resultado = $base * 1.21;
-                echo "<p><strong>El total de la factura es </strong>" . number_format($resultado, 2, ',', '.') . " €.</p>";
+        if (isset($_POST['alt']) && isset($_POST["rad"])) {
+            $altura = $_POST["alt"];
+            $radio = $_POST["rad"];
+            if ($volumen = (1 / 3) * pi() * $radio ** 2 * $altura) {
+                echo "<p>El volumen del cono es: $volumen m2.</p>";
             } else {
-                echo "<p style='color:red;'>Por favor, introduce una cantidad.</p>";
+                echo "<p style='color:red;'>Por favor, introduce cantidades correctas.</p>";
             }
         }
         ?>

@@ -15,7 +15,6 @@
             <p>Calcular el total de factura a partir de la base imponible:</p>
             <label for="base">Base imponible (IVA del 21%):</label>
             <input type="number" name="base" id="base" min="1"><br>
-
             <br><input type="submit" value="Calcular" name="enviar">
         </form>
 
