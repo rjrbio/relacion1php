@@ -16,30 +16,31 @@
 
     <main>
         <section class="lista-ejercicios">
-            <ol>
-                <li><span><a href="./ej1/index.php">Ejercicio 1</a></span></li>
-                <li><span><a href="./ej2/index.php">Ejercicio 2</a></span></li>
-                <li><span><a href="./ej3/index.php">Ejercicio 3</a></span></li>
-                <li><span><a href="./ej4/index.php">Ejercicio 4</a></span></li>
-                <li><span><a href="./ej5/index.php">Ejercicio 5</a></span></li>
-                <li><span><a href="./ej6/index.php">Ejercicio 6</a></span></li>
-                <li><span><a href="./ej7/index.php">Ejercicio 7</a></span></li>
-                <li><span><a href="./ej8/index.php">Ejercicio 8</a></span></li>
-                <li><span><a href="./ej9/index.php">Ejercicio 9</a></span></li>
-                <li><span><a href="./ej10/index.php">Ejercicio 10</a></span></li>
-                <li><span><a href="./ej11/index.php">Ejercicio 11</a></span></li>
-                <li><span><a href="./ej12/index.php">Ejercicio 12</a></span></li>
-                <li><span><a href="./ej13/index.php">Ejercicio 13</a></span></li>
-                <li><span><a href="./ej14/index.php">Ejercicio 14</a></span></li>
-                <li><span><a href="./ej15/index.php">Ejercicio 15</a></span></li>
-            </ol>
+            <ul class="lista-ejercicios">
+                <a href="./ej1/index.php"><li><span>Ejercicio 1</span></li></a>
+                <a href="./ej2/index.php"><li><span>Ejercicio 2</span></li></a>
+                <a href="./ej3/index.php"><li><span>Ejercicio 3</span></li></a>
+                <a href="./ej4/index.php"><li><span>Ejercicio 4</span></li></a>
+                <a href="./ej5/index.php"><li><span>Ejercicio 5</span></li></a>
+                <a href="./ej6/index.php"><li><span>Ejercicio 6</span></li></a>
+                <a href="./ej7/index.php"><li><span>Ejercicio 7</span></li></a>
+                <a href="./ej8/index.php"><li><span>Ejercicio 8</span></li></a>
+                <a href="./ej9/index.php"><li><span>Ejercicio 9</span></li></a>
+                <a href="./ej10/index.php"><li><span>Ejercicio 10</span></li></a>
+                <a href="./ej11/index.php"><li><span>Ejercicio 11</span></li></a>
+                <a href="./ej12/index.php"><li><span>Ejercicio 12</span></li></a>
+                <a href="./ej13/index.php"><li><span>Ejercicio 13</span></li></a>
+                <a href="./ej14/index.php"><li><span>Ejercicio 14</span></li></a>
+                <a href="./ej15/index.php"><li><span>Ejercicio 15</span></li></a>
+            </ul>
 
         </section>
 
-        <footer>
-            <p>Jose Francisco Tinoco Fokkelman</p>
-        </footer>
+
     </main>
+    <footer>
+        <p>Jose Francisco Tinoco Fokkelman</p>
+    </footer>
 </body>
 
 </html>

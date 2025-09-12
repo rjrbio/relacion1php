@@ -1,0 +1,55 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media de numeros</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <main>
+        <h1>Media de numeros</h1>
+        <form method="post">
+            <p>Calcula la media de los números indicados.</p>
+            <label for="numero">Introduce números positivos (para parar indica un número negativo): </label>
+            <br><br><input type="number" name="numero" id="numero" required autofocus>
+            <input type="submit" value="Enviar" name="enviar">
+        </form>
+
+        <?php
+        if (!isset($_SESSION["numeros"])) {
+            $_SESSION["numeros"] = [];
+        }
+
+        if (isset($_POST["numero"])) {
+            $numero = (int)$_POST["numero"];
+            if ($numero >= 0) {
+                $_SESSION["numeros"][] = $numero;
+            } else {
+                if (count($_SESSION["numeros"]) > 0) {
+                    $suma = array_sum($_SESSION["numeros"]);
+                    $cantidad = count($_SESSION["numeros"]);
+                    $media = $suma / $cantidad;
+                    echo "<p>La media de los números introducidos es: <b>$media</b></p>";
+                } else {
+                    echo "<p>No se introdujeron números positivos.</p>";
+                }
+                // Reset para nuevo cálculo
+                $_SESSION["numeros"] = [];
+            }
+        }
+
+        if (!empty($_SESSION["numeros"])) {
+            echo "<p>Números introducidos: " . implode(", ", $_SESSION["numeros"]) . "</p>";
+        }
+        ?>
+        <br><a href="../index.php">Pagina principal</a>
+    </main>
+</body>
+
+</html>
