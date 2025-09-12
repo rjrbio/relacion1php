@@ -19,7 +19,7 @@
             <input type="number" name="numero2" id="numero2" required><br>
             <label for="numero3">Tercer número: </label></label>
             <input type="number" name="numero3" id="numero3" required><br>
-            <br><input type="submit" value="Calcular" name="enviar">
+            <br><input type="submit" value="Ordenar" name="enviar">
         </form>
 
         <?php

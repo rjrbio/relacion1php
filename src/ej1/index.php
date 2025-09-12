@@ -18,7 +18,7 @@
             <label for="peseta">Pesetas:</label>
             <input type="number" name="peseta" id="peseta" min="1"><br>
 
-            <br><input type="submit" value="Calcular" name="enviar">
+            <br><input type="submit" value="Convertir" name="enviar">
         </form>
 
         <?php
