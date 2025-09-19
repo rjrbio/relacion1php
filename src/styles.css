@@ -10,6 +10,9 @@ main {
     margin: 50px auto;
     max-width: 900px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* esto asegura que cualquier hijo, incluyendo la pirámide, se centre */
 }
 
 /* Encabezado */
@@ -106,17 +109,21 @@ th {
 }
 
 .piramide {
-    text-align: center;
-    margin: 20px 0;
+    display: flex;
+    flex-direction: column;  /* cada fila debajo de la anterior */
+    align-items: center;     /* centra horizontalmente las filas */
+    margin: 20px auto;       /* centra el bloque completo */
+    width: fit-content;      /* el ancho se ajusta al contenido */
 }
 
 .fila {
+    display: flex;           /* las imágenes en fila */
+    justify-content: center; /* centra las imágenes dentro de la fila */
     margin: 5px 0;
 }
 
 .figura {
     width: 40px;
     height: 40px;
-    display: inline-block;
     margin: 2px;
 }
