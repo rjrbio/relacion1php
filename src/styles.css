@@ -2,10 +2,11 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #06bac7, #b2f3c2);
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
     color: #333;
     display: flex;
     flex-direction: column;
@@ -28,8 +29,8 @@ main {
 header {
     text-align: center;
     padding: 2.5rem 1rem;
-    background: linear-gradient(135deg, #9be24a, #4ae2af);
-    color: rgb(34, 34, 34);
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    color: #1a1a1a;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -45,13 +46,13 @@ header {
 
 .lista-ejercicios li {
     list-style: none;
-    background: rgb(233, 201, 60);
+    background: #fff3b0;
+    color: #333;
     padding: 2rem 1rem;
     border-radius: 16px;
     text-align: center;
     font-size: 1.1rem;
     font-weight: 500;
-    color: #000000;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
     transition: all 0.4s ease;
     cursor: pointer;
@@ -64,7 +65,7 @@ header {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, #87e24a, #50c9c3);
+    background: linear-gradient(135deg, #ffd6ff, #a0c4ff);
     opacity: 0;
     transition: opacity 0.4s ease;
     z-index: 0;
@@ -91,8 +92,8 @@ footer {
     text-align: center;
     padding: 1.2rem;
     font-size: 0.95rem;
-    color: #000000;
-    background: #dfdfdf;
+    background: #f3f3f3;
+    color: #555;
     margin-top: 1rem;
     border-top: 1px solid #ddd;
 }
@@ -101,7 +102,7 @@ table {
     width: 33%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: #d0ddf1;
+    background-color: #cce7ff;
 }
 
 table,
@@ -112,8 +113,8 @@ td {
 }
 
 th {
-    background-color: #4a90e2;
-    color: white;
+    background-color: #7ebaff;
+    color: #ffffff;
     text-align: left;
 }
 
