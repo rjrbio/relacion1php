@@ -20,7 +20,7 @@
 
         <?php
         if (isset($_POST["numero"])) {
-            $numero = (int)$_POST["numero"];
+            $numero = (int) $_POST["numero"];
             if ($numero < 0) {
                 echo "<p>Por favor, introduce un número no negativo.</p>";
             } else {
@@ -39,6 +39,9 @@
         ?>
         <br><a href="../index.php">Pagina principal</a>
     </main>
+    <footer>
+        <p>Jose Francisco Tinoco Fokkelman</p>
+    </footer>
 </body>
 
 </html>

@@ -3,12 +3,14 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pirámide</title>
     <link rel="stylesheet" href="../styles.css">
 </head>
+
 <body>
     <main>
         <h1>Pirámide de Figuras</h1>
@@ -36,5 +38,9 @@ session_start();
         <br><a href="reset.php">Volver al formulario</a>
         <br><a href="../index.php">Pagina principal</a>
     </main>
+    <footer>
+        <p>Jose Francisco Tinoco Fokkelman</p>
+    </footer>
 </body>
+
 </html>

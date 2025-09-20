@@ -1,9 +1,16 @@
-body {
+* {
+    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #f0f4ff, #e6f0ff);
+    background: linear-gradient(135deg, #06bac7, #b2f3c2);
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
 }
 
 main {
@@ -11,16 +18,18 @@ main {
     max-width: 900px;
     width: 100%;
     display: flex;
+    flex: 1 0 auto;
     flex-direction: column;
-    align-items: center; /* esto asegura que cualquier hijo, incluyendo la pirámide, se centre */
+    align-items: center;
+    /* esto asegura que cualquier hijo, incluyendo la pirámide, se centre */
 }
 
 /* Encabezado */
 header {
     text-align: center;
     padding: 2.5rem 1rem;
-    background: linear-gradient(135deg, #4a90e2, #357ABD);
-    color: white;
+    background: linear-gradient(135deg, #9be24a, #4ae2af);
+    color: rgb(34, 34, 34);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -36,13 +45,13 @@ header {
 
 .lista-ejercicios li {
     list-style: none;
-    background: white;
+    background: rgb(233, 201, 60);
     padding: 2rem 1rem;
     border-radius: 16px;
     text-align: center;
     font-size: 1.1rem;
     font-weight: 500;
-    color: #333;
+    color: #000000;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
     transition: all 0.4s ease;
     cursor: pointer;
@@ -55,7 +64,7 @@ header {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, #4a90e2, #50c9c3);
+    background: linear-gradient(135deg, #87e24a, #50c9c3);
     opacity: 0;
     transition: opacity 0.4s ease;
     z-index: 0;
@@ -66,7 +75,7 @@ header {
 }
 
 .lista-ejercicios li:hover {
-    color: white;
+    color: rgb(255, 255, 255);
     transform: translateY(-6px) scale(1.03);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
@@ -82,9 +91,9 @@ footer {
     text-align: center;
     padding: 1.2rem;
     font-size: 0.95rem;
-    color: #555;
-    background: #f9f9f9;
-    margin-top: 3rem;
+    color: #000000;
+    background: #dfdfdf;
+    margin-top: 1rem;
     border-top: 1px solid #ddd;
 }
 
@@ -110,15 +119,21 @@ th {
 
 .piramide {
     display: flex;
-    flex-direction: column;  /* cada fila debajo de la anterior */
-    align-items: center;     /* centra horizontalmente las filas */
-    margin: 20px auto;       /* centra el bloque completo */
-    width: fit-content;      /* el ancho se ajusta al contenido */
+    flex-direction: column;
+    /* cada fila debajo de la anterior */
+    align-items: center;
+    /* centra horizontalmente las filas */
+    margin: 20px auto;
+    /* centra el bloque completo */
+    width: fit-content;
+    /* el ancho se ajusta al contenido */
 }
 
 .fila {
-    display: flex;           /* las imágenes en fila */
-    justify-content: center; /* centra las imágenes dentro de la fila */
+    display: flex;
+    /* las imágenes en fila */
+    justify-content: center;
+    /* centra las imágenes dentro de la fila */
     margin: 5px 0;
 }
 

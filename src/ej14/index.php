@@ -72,6 +72,9 @@
 
         <br><a href="../index.php">Pagina principal</a>
     </main>
+    <footer>
+        <p>Jose Francisco Tinoco Fokkelman</p>
+    </footer>
 </body>
 
 </html>

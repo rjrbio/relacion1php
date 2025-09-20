@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <h1>Relación de Ejercicios</h1>
+        <h1>Relación de Ejercicios - 1</h1>
         <p>Listado de 15 ejercicios PHP</p>
     </header>
 

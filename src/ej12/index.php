@@ -19,7 +19,7 @@ session_start();
             <label for="altura">Altura: </label>
             <input type="number" name="altura" min="1" max="10" required autofocus>
             <br><label for="figura">Figura: </label>
-            
+
             <select name="figura" id="figura">
                 <option value="loro">Loro</option>
                 <option value="elefante">Elefante</option>
@@ -33,6 +33,9 @@ session_start();
 
         <br><a href="../index.php">Pagina principal</a>
     </main>
+    <footer>
+        <p>Jose Francisco Tinoco Fokkelman</p>
+    </footer>
 </body>
 
 </html>
