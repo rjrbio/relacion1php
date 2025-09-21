@@ -23,15 +23,15 @@
 
         <?php
 
-        // Recoge datos del formulario
+ 
         if (isset($_GET['enviar'])) {
-            // Verificamos si el usuario ha introducido euros
+   
             if (!empty($_GET['euro'])) {
                 $euros = floatval($_GET['euro']);
                 $pesetas = $euros * 166.386;
                 echo "<p><strong>$euros €</strong> equivalen a <strong>" . number_format($pesetas, 2, ',', '.') . " pesetas</strong>.</p>";
             }
-            // O si ha introducido pesetas
+   
             elseif (!empty($_GET['peseta'])) {
                 $pesetas = floatval($_GET['peseta']);
                 $euros = $pesetas / 166.386;

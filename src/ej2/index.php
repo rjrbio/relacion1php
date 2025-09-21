@@ -20,9 +20,8 @@
 
         <?php
 
-        // Recoge datos del formulario
         if (isset($_GET['enviar'])) {
-            // Verificamos si el usuario ha introducido euros
+
             if (!empty($_GET['base'])) {
                 $base = floatval($_GET['base']);
                 $resultado = $base * 1.21;

@@ -39,7 +39,6 @@ session_start();
                 } else {
                     echo "<p>No se introdujeron números positivos.</p>";
                 }
-                // Reset para nuevo cálculo
                 $_SESSION["numeros"] = [];
             }
         }

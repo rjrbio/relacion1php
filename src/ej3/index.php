@@ -23,7 +23,7 @@
 
         <?php
 
-        // Recoge datos del formulario
+    
         if (isset($_POST['alt']) && isset($_POST["rad"])) {
             $altura = $_POST["alt"];
             $radio = $_POST["rad"];

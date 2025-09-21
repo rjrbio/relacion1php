@@ -20,7 +20,7 @@
 
         <?php
 
-        // Recoge datos del formulario
+     
         if (isset($_POST['hora'])) {
             $hora = $_POST["hora"];
             if ($hora >= 6 && $hora <= 12) {
